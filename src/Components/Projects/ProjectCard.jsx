@@ -1,7 +1,7 @@
 
 const ProjectCard = ({title, imageSrc, description, liveUrl, sourceUrl}) => {
     return (
-      <div className="w-1/3 mx-auto bg-white rounded-2xl shadow-md overflow-hidden dark:bg-gray-800 dark:shadow-gray-700">
+      <div className="mx-auto bg-white rounded-2xl shadow-md overflow-hidden dark:bg-gray-800 dark:shadow-gray-700">
         {/* Project Image */}
         <img
           src={imageSrc}

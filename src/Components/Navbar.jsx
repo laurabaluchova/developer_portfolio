@@ -42,7 +42,7 @@ const Navbar = () => {
           className="text-xl font-semibold dark:bg-transparent dark:hover:bg-gray-800 transition-colors duration-300 p-2 rounded cursor-pointer"
           onClick={() => navigate("/")}
         >
-          Logo
+          Home
         </button>
         <button
           className="lg:hidden block text-black hover:text-white hover:bg-black p-2 rounded transition-colors duration-300"

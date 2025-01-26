@@ -5,6 +5,7 @@ function Homepage() {
   <p className="text-4xl sm:text-6xl md:text-7xl font-bold text-center animate-fade-in">
     I am Laura!
   </p>
+  <img className="w-full h-64 object-contain mt-3" src="lines.jpg"/>
  
 </div>
 
