@@ -12,13 +12,13 @@ import projectsData  from './Data/projects.js';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Router>
-      <Navbar />
+    <App />      
     <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />    
         <Route path="/projects" element={<ProjectsList projects={projectsData}/>} />     
       </Routes>
-    <App />
+    
     </Router>
   </StrictMode>,
 )

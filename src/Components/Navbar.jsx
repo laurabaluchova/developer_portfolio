@@ -7,7 +7,7 @@ const Navbar = () => {
 
   const navLinks = (
     <>
-      <li>
+      {/* <li>
         <NavLink
           className={({ isActive }) =>
             isActive
@@ -18,7 +18,7 @@ const Navbar = () => {
         >
           About me
         </NavLink>
-      </li>
+      </li> */}
       <li>
         <NavLink
           className={({ isActive }) =>
@@ -35,7 +35,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar flex flex-col lg:flex-row justify-between items-center m-3 mb-6">
+    <div className="navbar flex flex-col lg:flex-row justify-between items-center p-3 mb-6 sticky top-0 bg-white shadow z-50">
       
       <div className="flex items-center justify-between w-full lg:w-auto">
         <button
