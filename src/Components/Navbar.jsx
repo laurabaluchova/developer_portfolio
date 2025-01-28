@@ -7,24 +7,13 @@ const Navbar = () => {
 
   const navLinks = (
     <>
-      {/* <li>
-        <NavLink
-          className={({ isActive }) =>
-            isActive
-              ? "px-4 py-2 rounded bg-black text-white dark:bg-gray-500 transition-colors duration-300"
-              : "px-4 py-2 rounded bg-transparent text-black hover:bg-black hover:text-white dark:text-gray-400 dark:hover:bg-gray-500 transition-colors duration-300 focus:outline-none focus:bg-black focus:text-white"
-          }
-          to="/about"
-        >
-          About me
-        </NavLink>
-      </li> */}
+      
       <li>
         <NavLink
           className={({ isActive }) =>
             isActive
-              ? "px-4 py-2 rounded bg-black text-white dark:bg-gray-500 transition-colors duration-300"
-              : "px-4 py-2 rounded bg-transparent text-black hover:bg-black hover:text-white dark:text-gray-400 dark:hover:bg-gray-500 transition-colors duration-300 focus:outline-none focus:bg-black focus:text-white"
+              ? "px-4 py-2 rounded bg-black text-white dark:bg-gray-800 transition-colors duration-300"
+              : "px-4 py-2 rounded bg-transparent text-black hover:bg-black hover:text-white dark:text-gray-400 dark:hover:bg-gray-800 transition-colors duration-300 focus:outline-none focus:bg-black focus:text-white"
           }
           to="/projects"
         >
@@ -35,7 +24,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar flex flex-col lg:flex-row justify-between items-center p-3 mb-6 sticky top-0 bg-white shadow z-50">
+    <div className="navbar flex flex-col lg:flex-row justify-between items-center p-3 mb-6 sticky top-0 bg-white shadow z-50 dark:bg-dark-theme">
       
       <div className="flex items-center justify-between w-full lg:w-auto">
         <button
@@ -45,7 +34,7 @@ const Navbar = () => {
           Home
         </button>
         <button
-          className="lg:hidden block text-black hover:text-white hover:bg-black p-2 rounded transition-colors duration-300"
+          className="lg:hidden block text-black hover:text-white hover:bg-black p-2 rounded transition-colors duration-300 dark:text-dark-theme-2"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <svg
