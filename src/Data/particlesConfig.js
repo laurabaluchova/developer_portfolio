@@ -22,7 +22,7 @@ export const particlesConfig = {
       "delay": 0,
       "fullScreen": {
         "enable": true,
-        "zIndex": 0
+        "zIndex": 1
       },
       "detectRetina": true,
       "duration": 0,
@@ -30,10 +30,7 @@ export const particlesConfig = {
       "interactivity": {
         "detectsOn": "window",
         "events": {
-          "onClick": {
-            "enable": true,
-            "mode": "push"
-          },
+          
           "onDiv": {
             "selectors": {},
             "enable": false,
@@ -383,7 +380,7 @@ export const particlesConfig = {
           }
         },
         "zIndex": {
-          "value": 0,
+          "value": 1,
           "opacityRate": 1,
           "sizeRate": 1,
           "velocityRate": 1

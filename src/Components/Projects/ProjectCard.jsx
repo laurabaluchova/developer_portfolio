@@ -1,7 +1,7 @@
 
 const ProjectCard = ({title, imageSrc, description, liveUrl, sourceUrl}) => {
     return (
-      <div className="mx-auto bg-white rounded-2xl ring overflow-hidden dark:bg-dark-theme dark:shadow-gray-700">        
+      <div className="mx-auto bg-white rounded-2xl ring overflow-hidden dark:bg-dark-theme dark:shadow-gray-700 z-10 relative">        
         <img
           src={imageSrc}
           alt="Project Thumbnail"

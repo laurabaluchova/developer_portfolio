@@ -612,6 +612,7 @@ function App() {
         id="tsparticles"
         particlesLoaded={particlesLoaded}
         options={MemoizedConfig}
+        className="z-0 absolute"
       />
      {/* <ParticlesBg color="#A7A7A7" type="cobweb" bg={true} />    */}
     <Navbar /> 
