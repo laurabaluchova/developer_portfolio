@@ -29,7 +29,7 @@ const ProjectCard = ({title, imageSrc, description, liveUrl, sourceUrl}) => {
               href={sourceUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 border border-black text-black bg-white rounded-lg shadow hover:bg-gray-700 focus:outline-none focus:ring focus:ring-gray-300 transition duration-300 dark:border-dark-theme-2 dark:bg-dark-theme dark:text-dark-theme-2"
+              className="px-6 py-3 border border-black text-black bg-white rounded-lg shadow hover:bg-gray-700 hover:text-white focus:outline-none focus:ring focus:ring-gray-300 transition duration-300 dark:border-dark-theme-2 dark:bg-dark-theme dark:text-dark-theme-2"
             >
               Source Code
             </a>

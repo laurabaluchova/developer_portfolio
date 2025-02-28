@@ -17,7 +17,7 @@ With previous IT experience during internship at PwC and at the university on ce
 
 I am currently on maternity leave and open to discussion about entry-level job with time flexibility. 
 </p>
-<button className="bg-black text-white px-4 py-2 rounded m-3 mb-10 cursor-pointer dark:bg-dark-theme-2 dark:text-dark-theme" onClick={() => {
+<button className="hover:bg-gray-700 bg-black text-white px-4 py-2 rounded m-3 mb-10 cursor-pointer dark:bg-dark-theme-2 dark:text-dark-theme" onClick={() => {
     navigate("/projects"); 
   }}>Check out my projects</button>
 
