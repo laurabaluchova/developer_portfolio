@@ -1,5 +1,5 @@
 
-const ProjectCard = ({title, imageSrc, description, liveUrl, sourceUrl}) => {
+const ProjectCard = ({title, imageSrc, description, liveUrl, sourceUrl=""}) => {
     return (
       <div className="mx-auto bg-white rounded-2xl ring overflow-hidden dark:bg-dark-theme dark:shadow-gray-700 z-10 relative">        
         <img
@@ -25,6 +25,7 @@ const ProjectCard = ({title, imageSrc, description, liveUrl, sourceUrl}) => {
             >
               See Live
             </a>
+            {sourceUrl != "" &&
             <a
               href={sourceUrl}
               target="_blank"
@@ -32,7 +33,7 @@ const ProjectCard = ({title, imageSrc, description, liveUrl, sourceUrl}) => {
               className="px-6 py-3 border border-black text-black bg-white rounded-lg shadow hover:bg-gray-700 hover:text-white focus:outline-none focus:ring focus:ring-gray-300 transition duration-300 dark:border-dark-theme-2 dark:bg-dark-theme dark:text-dark-theme-2"
             >
               Source Code
-            </a>
+            </a>}
           </div>
         </div>
       </div>

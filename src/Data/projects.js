@@ -9,14 +9,21 @@
     },
     {
         id: 2,
-        title: 'Food Ordering App',
-        imageSrc: 'food_app.jpg',
-        description: 'App where user can add various items into the cart and the final sum is calculated. App works with dummy data, the main purpose is to showcase the cart logic. Deployed with Render.',
-        liveUrl: 'https://food-ordering-app-cso5.onrender.com/',
-        sourceUrl: 'https://github.com/laurabaluchova/foodappp'
+        title: 'Web for SONRISA, z.ú.',
+        imageSrc: 'sonrisa.png',
+        description: 'New web for non-profit organization SONRISA. Created with React, styled with React Bootstrap. Deployed with Render. Work in progress.',
+        liveUrl: 'https://test-sonrisaprevence.onrender.com/',        
       },
       {
         id: 3,
+        title: 'Digital gallery for Kosmas',
+        imageSrc: 'kosmas.png',
+        description: 'Interactive digital gallery created in collaboration with organization eKultura. Based on Emilian Kasemi tutorial. Uses Three.js. Deployed on-premises. Automatic deploy based on GitHub push command created with Amazon EC2 instance.',
+        liveUrl: 'https://test.digitalni-muzeum.cz/',
+        sourceUrl: 'https://github.com/laurabaluchova/robofriendshttps://github.com/eKultura/digitalni-muzeum.cz'      
+      },
+      {
+        id: 4,
         title: 'Robofriends',
         imageSrc: 'robofriends.jpg',
         description: 'Simple project with search function. It demonstrates calling rest API and processing of received data. Tachyons is used for styling. Deployed with GitHub Pages.',
