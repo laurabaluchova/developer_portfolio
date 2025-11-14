@@ -324,7 +324,7 @@ export const particlesConfig = {
           "type": "images",
           "options": {
             "images": {
-              "src": "https://static-00.iconduck.com/assets.00/coffee-icon-512x512-w7geux8d.png",
+              "src": "coffee.png",
               "width": 1000,
               "height": 1200
             }
